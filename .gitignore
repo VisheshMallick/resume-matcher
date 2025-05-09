@@ -1,0 +1,27 @@
+# Ignore Python and Django files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+.env
+
+# VSCode
+.vscode/
+
+# macOS/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Node modules (if accidentally added here)
+node_modules/
+
+# React/Frontend (just in case it leaks to root)
+build/
